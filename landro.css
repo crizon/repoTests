@@ -563,10 +563,11 @@ min-height: unset;
 
 
 
-html .view-item.collection-type-team{
+html{
   
   .YLOPO-widget .widget-gallery-container .grid-view-item {
     min-width: 550px;
+    margin: 0 50px 0 0;
   }
   
   .YLOPO-widget .widget-gallery-container .grid-view-item>.gallery-card-b {
@@ -577,4 +578,11 @@ html .view-item.collection-type-team{
     height: 400px;
     width: 100%;
   }
+
+  .YLOPO-widget .gallery-card-b .gallery-card-b-main-card .gallery-card-b-details-container>.property-details-wrap>.gallery-card-b-compliance-display,
+  .YLOPO-widget .gallery-card-b .gallery-card-b-main-card .gallery-card-b-details-container>.property-details-wrap{
+    display: none !important;
+  }
+
+  
 }
