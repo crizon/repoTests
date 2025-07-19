@@ -552,6 +552,7 @@ min-height: unset;
     }
 
 
+
   div#soldSwiperx .swiper-slide {
     height: fit-content !important;
   }
@@ -559,3 +560,21 @@ min-height: unset;
   .single-agent-info-custom-content-5 + br + br, .single-agent-info-custom-content-5 + br, .single-agent-contact-section + br + br, .single-agent-contact-section + br {
     display: none !important;
   }
+
+
+
+html .view-item.collection-type-team{
+  
+  .YLOPO-widget .widget-gallery-container .grid-view-item {
+    min-width: 550px;
+  }
+  
+  .YLOPO-widget .widget-gallery-container .grid-view-item>.gallery-card-b {
+    width: 100%;
+  }
+  
+  .YLOPO-widget .gallery-card-b .gallery-card-b-main-card .gallery-card-b-image-container{
+    height: 400px;
+    width: 100%;
+  }
+}
