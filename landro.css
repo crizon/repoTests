@@ -1,0 +1,561 @@
+/*PRELOADER*/
+  
+#onloading-animation{
+  position:fixed;
+  z-index:9999999;
+  height:100vh;
+  width:100vw;
+  background:#fff;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+#onloading-animation.hide{
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 1s 1s,
+  opacity 0s linear;
+}
+  
+  
+  .view-list #ctaSec, .view-list #soldSec{
+    display: none!important;
+  }
+
+
+
+
+
+
+
+  /*BANNER*/
+  
+  .team-layout-a-item .single-agent-header {
+    padding-top: 100px;
+  }
+  .team-layout-a-item .single-agent-header .single-agent-header-content {
+    padding-bottom: 150px;
+  }
+  .inline-background-image.empty,
+  .banner-image-override.empty {
+    background: black !important;
+  }
+  
+  .team-layout-a-item .single-agent-header .single-agent-header-content .single-agent-header-search, .call-to-action-buttons, .license-number, .single-agent-header-info hr{
+    display: none;
+  }
+  
+  .team-layout-a-item .single-agent-header .single-agent-header-content .single-agent-header-box {
+    background-color: unset;
+    box-shadow: unset;
+    padding: 0;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+  
+  
+  .team-layout-a-item .single-agent-header .single-agent-header-content .single-agent-header-box.desktop {
+    display: flex!important;
+  }
+  
+  .team-layout-a-item .single-agent-header .single-agent-header-content .single-agent-header-box.mobile{
+    display: none!important;
+  }
+  
+  .team-layout-a-item .single-agent-header .single-agent-header-content .single-agent-header-box.desktop .single-agent-header-img, .team-layout-a-item .single-agent-header .single-agent-header-content .single-agent-header-box.mobile .single-agent-header-img {
+    width: 480px;
+    height: 480px;
+    flex-shrink: 0;
+    aspect-ratio: 1;
+}
+  
+  .team-layout-a-item .single-agent-header .single-agent-header-content .single-agent-header-box.desktop .single-agent-header-info, .team-layout-a-item .single-agent-header .single-agent-header-content .single-agent-header-box.mobile .single-agent-header-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 0 30px 70px;
+  }
+  
+  
+  .team-layout-a-item .single-agent-header .single-agent-header-content .single-agent-header-box.desktop .single-agent-header-info .single-agent-header-info-title, .team-layout-a-item .single-agent-header .single-agent-header-content .single-agent-header-box.mobile .single-agent-header-info .single-agent-header-info-title {
+    order: 1;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+  
+  
+  .team-layout-a-item .single-agent-header .single-agent-header-content .single-agent-header-box.desktop .single-agent-header-info .single-agent-header-info-name, .team-layout-a-item .single-agent-header .single-agent-header-content .single-agent-header-box.mobile .single-agent-header-info .single-agent-header-info-name
+ {
+    padding: 0!important;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    word-break: break-word;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    order: 2;
+}
+  
+  .team-layout-a-item .single-agent-header .single-agent-header-content .single-agent-header-box.desktop .single-agent-header-info .single-agent-header-info-sub, .team-layout-a-item .single-agent-header .single-agent-header-content .single-agent-header-box.mobile .single-agent-header-info .single-agent-header-info-sub{
+  order: 3;
+  }
+  
+  .email-link:before {
+    content: "Email: ";
+  }
+  
+  .single-agent-header-info-sub > div:first-child:before {
+    content: "Phone: ";
+  }
+
+
+  
+  
+  
+  
+  
+
+
+
+/*BODY BIO*/  
+
+  
+.team-layout-a-item .single-agent-info {
+background-color: white;
+padding-bottom: 0;
+}
+  
+  
+  h2#fName {
+    text-align: center;
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+  }
+  
+  
+  .team-layout-a-item .single-agent-info .single-agent-info-left .single-agent-info-left-block {
+    width: 100%!important;
+    max-width: 1200px!important;
+    margin: auto!important;
+    padding: 150px 0!important;
+}
+  
+  .team-layout-a-item .single-agent-info .single-agent-info-left .single-agent-info-block-body p {
+    color: #333!important;
+    font-family: Poppins!important;
+    font-size: 18px!important;
+    font-style: normal!important;
+    font-weight: 400!important;
+    line-height: 35px;
+  }
+  
+  
+  
+
+
+
+
+
+
+
+
+/*TESTIMONIALS*/
+
+.single-agent-testimonials {
+background-color: black;
+min-height: unset;
+}
+  
+.testimonials-list-item-content .testimonial-left-container,
+.testimonials-list-item-content .testimonial-image-container,
+.testimonials-list-item-content div.testimonial-ratings,
+.testimonials-list-item-content .testimonials-zillow-logo-wrap,
+  .testimonials-list-item-content .testimonial-reviewer-link, .testimonials-list-item-content .testimonial-full-review .testimonial-full-zillow-review{
+  display: none!important;
+}
+  .single-agent-testimonials:before {
+    content: "what our client’s say";
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 70px;
+  }
+  
+  .single-agent-testimonials .single-agent-testimonial-container {
+    max-width: unset;
+    margin: 0;
+    left: unset;
+    width: 100%;
+    max-height: 200px;
+  }
+  
+  .single-agent-testimonials .single-agent-testimonial-container .single-agent-testimonial-list-item{
+    width: 100%;
+  }
+  
+  
+  .testimonials-list-item-content .testimonial-full-review{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    overflow: hidden;
+    width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    padding-top: 0!important;
+    min-height: 200px;
+  }
+  
+  .single-agent-testimonials .single-agent-testimonials-arrow-left, .single-agent-testimonials .single-agent-testimonials-arrow-right {
+    position: unset;
+    top: unset;
+    left: unset;
+    transform: unset;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 !important;
+    transition: .4s ease;
+  }
+  
+  div#testislide {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    gap: 70px;
+  }
+  div#testiarrows {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .single-agent-testimonials .single-agent-testimonials-arrow-left svg, .single-agent-testimonials .single-agent-testimonials-arrow-right svg {
+    position: unset;
+    left: unset;
+    top: unset;
+    transform: unset;
+    width: 40px;
+    height: 40px;
+}
+  
+  .single-agent-testimonials-arrow-left svg {
+    transform: scaleX(-1) !important;
+    margin-left: -5px;
+}
+  
+  .single-agent-testimonials .single-agent-testimonials-arrow-right{
+    margin-right: -5px;
+  }
+  
+  .single-agent-testimonials .single-agent-testimonials-arrow-left svg path, .single-agent-testimonials .single-agent-testimonials-arrow-right svg path {
+    stroke: white;
+    transition: .4s ease;
+}
+  
+   .single-agent-testimonials .single-agent-testimonials-arrow-left:hover, .single-agent-testimonials .single-agent-testimonials-arrow-right:hover{
+    background: white;
+}
+  
+  .single-agent-testimonials .single-agent-testimonials-arrow-left:hover svg path, .single-agent-testimonials .single-agent-testimonials-arrow-right:hover svg path {
+    stroke: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CTA*/
+
+#ctaSec .rowX {
+    display: flex;
+    flex-direction: row;
+}
+
+.imgCol {
+    height: 710px;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.txtCol{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px;
+
+    h3{
+        color: #000;
+        text-align: center;
+        font-family: Poppins!important;
+        font-size: 24px!important;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 35px; /* 145.833% */
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+    }
+
+    h2{
+        color: #000;
+        text-align: center;
+        font-family: Poppins!important;
+        font-size: 55px!important;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px; /* 109.091% */
+        letter-spacing: 2px;
+    }
+
+    p{
+        color: #333;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+        margin: 40px 0 50px;
+    }
+
+
+    a{
+      color: #000;
+      font-family: Poppins;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 1px;
+      border: 2px solid #000;
+      display: flex;
+      padding: 25px 35px;
+      align-items: flex-start;
+      gap: 10px;
+      text-align: center;
+      transition: .4s ease;
+    }
+  
+  a:hover{
+    color: white;
+    background: black;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*LISTINGS*/
+    .grid-view-item.splide__slide {
+        margin: 0;
+        min-width: 250px;
+    }
+    
+    .grid-view-item.splide__slide .gallery-card-b {
+        width: 100%;
+    }
+
+    .grid-view-item.splide__slide .gallery-card-b .gallery-card-b-main-card .gallery-card-b-image-container {
+        width: 100%;
+        height: unset;
+        aspect-ratio: 1.336;
+        max-height: unset;
+    }
+
+    .team-layout-a-item .single-agent-listings{
+        display: none!important;
+    }
+
+
+
+    div#soldSec {
+        padding: 150px 0;
+        background: black;
+
+
+        h2{
+            color: #FFF;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 55px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 60px; /* 109.091% */
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 70px;
+        }
+
+        div#sNavi{
+            display: flex;
+            align-items: center;
+            max-width: 1200px;
+            margin: 70px auto 0;
+            gap: 50px;
+
+
+            .arrowX {
+                display: flex;
+                gap: 20px;
+
+                .swiper-button-next{
+                    position: unset;
+                    position: unset;
+                    width: 80px;
+                    height: 80px;
+                    flex-shrink: 0;
+                    border: 2px solid white;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: unset;
+                    color: white;
+                    transition: .4s ease;
+
+                    &:hover{
+                      color: black;
+                      background: white;
+                    }
+                }
+
+                .swiper-button-prev{
+                    position: unset;
+                    position: unset;
+                    position: unset;
+                    width: 80px;
+                    height: 80px;
+                    flex-shrink: 0;
+                    border: 2px solid white;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: unset;
+                    color: white;
+                    transition: .4s ease;
+
+                    &:hover{
+                      color: black;
+                      background: white;
+                    }
+                }
+
+                .swiper-button-next:after, .swiper-button-prev:after {
+                    font-size: 30px;
+                }
+            }
+
+
+
+            
+            .lineX {
+                width: -webkit-fill-available;
+                height: 1px;
+                background: white;
+            }
+
+            a.valBtn{
+                color: #FFF;
+                font-family: Poppins;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                letter-spacing: 1px;
+                display: flex;
+                padding: 25px 35px;
+                gap: 10px;
+                border: 2px solid #FFF;
+                align-items: center;
+                justify-content: center;
+                white-space: nowrap;
+                transition: .4s ease;
+
+                &:hover{
+                    color: black;
+                    background: white;
+                }
+            }
+        }
+    }
+
+
+  div#soldSwiperx .swiper-slide {
+    height: fit-content !important;
+  }
+
+  .single-agent-info-custom-content-5 + br + br, .single-agent-info-custom-content-5 + br, .single-agent-contact-section + br + br, .single-agent-contact-section + br {
+    display: none !important;
+  }
