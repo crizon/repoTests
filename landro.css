@@ -591,6 +591,7 @@ html{
     padding: 30px;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
   
     .label{
       display: none!important;
@@ -605,7 +606,7 @@ html{
       line-height: 35px; /* 109.375% */
     }
   
-    <p>
+    p{
       color: #FFF;
       font-family: Poppins;
       font-size: 20px;
@@ -614,7 +615,7 @@ html{
       line-height: normal;
       letter-spacing: 1px;
       width: fit-content;
-    </p>
+    }
   }
 
   
