@@ -689,6 +689,19 @@ html{
   }
 
 
+  
+
+  .YLOPO-widget .gallery-card-b .gallery-card-b-summary-details .summary-info{
+    padding: 0 30px 30px;
+    color: rgba(0, 0, 0, 0.40);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    gap: 16px;
+  }
+
   .YLOPO-widget .gallery-card-b .gallery-card-b-summary-details .summary-info .info-block {
     align-items: center;
     flex: unset;
@@ -697,7 +710,33 @@ html{
     justify-content: flex-start;
     flex-direction: row-reverse;
     border-left: none!important;
-}
+    color: rgba(0, 0, 0, 0.40);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .YLOPO-widget .gallery-card-b .gallery-card-b-summary-details .summary-info .info-block:nth-child(2):before {
+    content: '';
+    width: 3px;
+    height: 3px;
+    aspect-ratio: 1/1;
+    background: black;
+    border-radius: 50%;
+    margin-right: 16px;
+  }
+
+  .YLOPO-widget .gallery-card-b .gallery-card-b-summary-details .summary-info .info-block:nth-child(2):after {
+    content: '';
+    width: 3px;
+    height: 3px;
+    aspect-ratio: 1/1;
+    background: black;
+    border-radius: 50%;
+    margin-left: 16px;
+  }
 
 
   
