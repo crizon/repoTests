@@ -618,5 +618,13 @@ html{
     }
   }
 
+
+  .YLOPO-widget .gallery-card-b .gallery-card-b-summary-details,
+  .YLOPO-widget .gallery-card-b .gallery-card-b-main-card{
+    border: none!important;
+  }
   
 }
+
+
+
