@@ -651,6 +651,7 @@ html{
   .YLOPO-widget .gallery-card-b .gallery-card-b-summary-details .gallery-card-b-address-block {
     padding: 30px 30px!important;
     justify-content: flex-start!important;
+    border: none!important;
   }
 
   
@@ -673,6 +674,7 @@ html{
     .locality{
       display: flex!important;
       font-size: 20px!important;
+      gap: 5px;
   
       span{
         color: #333!important;
@@ -685,6 +687,19 @@ html{
     }
   
   }
+
+
+  .YLOPO-widget .gallery-card-b .gallery-card-b-summary-details .summary-info .info-block {
+    align-items: center;
+    flex: unset;
+    flex-flow: unset;
+    font-size: 12px;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    border-left: none!important;
+}
+
+
   
 }
 
