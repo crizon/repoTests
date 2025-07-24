@@ -646,6 +646,45 @@ html{
       pointer-events: initial;
     }
   }
+
+
+  .YLOPO-widget .gallery-card-b .gallery-card-b-summary-details .gallery-card-b-address-block {
+    padding: 30px 30px!important;
+    justify-content: flex-start!important;
+  }
+
+  
+  .YLOPO-widget .gallery-card-b .gallery-card-b-summary-details .gallery-card-b-address-block .layout{
+    
+    div:first-child{
+      color: #000!important;
+      font-family: Poppins!important;
+      font-size: 32px!important;
+      font-style: normal!important;
+      font-weight: 700!important;
+      line-height: 35px!important;
+      overflow: hidden!important;
+      display: -webkit-box!important;
+      -webkit-line-clamp: 1!important;
+      line-clamp: 1!important; 
+      -webkit-box-orient: vertical!important;
+    }
+  
+    .locality{
+      display: flex!important;
+      font-size: 20px!important;
+  
+      span{
+        color: #333!important;
+        font-family: Poppins!important;
+        font-size: 20px!important;
+        font-style: normal!important;
+        font-weight: 400!important;
+        line-height: 35px!important;
+      }
+    }
+  
+  }
   
 }
 
