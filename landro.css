@@ -706,16 +706,24 @@ html{
     align-items: center;
     flex: unset;
     flex-flow: unset;
-    font-size: 12px;
     justify-content: flex-start;
     flex-direction: row-reverse;
     border-left: none!important;
-    color: rgba(0, 0, 0, 0.40);
+    color: rgba(0, 0, 0, 0.40)!important;
     font-family: Poppins;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+
+    .label{
+      color: rgba(0, 0, 0, 0.40)!important;
+      font-family: Poppins;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
   }
 
   .YLOPO-widget .gallery-card-b .gallery-card-b-summary-details .summary-info .info-block:nth-child(2):before {
@@ -725,7 +733,7 @@ html{
     aspect-ratio: 1/1;
     background: black;
     border-radius: 50%;
-    margin-right: 16px;
+    margin-left: 16px;
   }
 
   .YLOPO-widget .gallery-card-b .gallery-card-b-summary-details .summary-info .info-block:nth-child(2):after {
@@ -735,7 +743,7 @@ html{
     aspect-ratio: 1/1;
     background: black;
     border-radius: 50%;
-    margin-left: 16px;
+    margin-right: 16px;
   }
 
 
