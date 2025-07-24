@@ -564,6 +564,10 @@ min-height: unset;
 
 
 html{
+
+  .YLOPO-widget .widget-gallery-container {
+    padding-left: 50px;
+  }
   
   .YLOPO-widget .widget-gallery-container .grid-view-item {
     min-width: 550px;
