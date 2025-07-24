@@ -573,10 +573,16 @@ html{
   .YLOPO-widget .widget-gallery-container .grid-view-item>.gallery-card-b {
     width: 100%;
   }
+
+  .YLOPO-widget .gallery-card-b .gallery-card-b-summary-details,
+  .YLOPO-widget .gallery-card-b .gallery-card-b-main-card{
+    border: none!important;
+  }
   
   .YLOPO-widget .gallery-card-b .gallery-card-b-main-card .gallery-card-b-image-container{
     height: 400px;
     width: 100%;
+    max-height: 400px;
   }
 
   .YLOPO-widget .gallery-card-b .gallery-card-b-main-card .gallery-card-b-details-container>.property-details-wrap>.gallery-card-b-compliance-display,
@@ -587,6 +593,15 @@ html{
     display: none !important;
   }
 
+  
+  .YLOPO-widget .gallery-card-b .gallery-card-b-main-card .gallery-card-b-details-container {
+    margin-top: -95px;
+  }
+
+  .YLOPO-widget .gallery-card-b .gallery-card-b-summary-details {
+    background: transparent;
+  }
+
 
   .info-block.lprice {
     background: #000;
@@ -595,6 +610,9 @@ html{
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    opacity: 0;
+    transition: .4s ease;
+    pointer-events: none;
   
     .label{
       display: none!important;
@@ -622,9 +640,11 @@ html{
   }
 
 
-  .YLOPO-widget .gallery-card-b .gallery-card-b-summary-details,
-  .YLOPO-widget .gallery-card-b .gallery-card-b-main-card{
-    border: none!important;
+  .YLOPO-widget .widget-gallery-container .grid-view-item:hover{
+    .info-block.lprice {
+      opacity: 1;
+      pointer-events: initial;
+    }
   }
   
 }
