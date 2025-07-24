@@ -580,7 +580,10 @@ html{
   }
 
   .YLOPO-widget .gallery-card-b .gallery-card-b-main-card .gallery-card-b-details-container>.property-details-wrap>.gallery-card-b-compliance-display,
-  .YLOPO-widget .gallery-card-b .gallery-card-b-main-card .gallery-card-b-details-container>.property-details-wrap{
+  .YLOPO-widget .gallery-card-b .gallery-card-b-main-card .gallery-card-b-details-container>.property-details-wrap,
+  .YLOPO-widget .listing-image-with-map .listing-image-with-map-image-layout .listing-status-with-overlay-flag,
+  .YLOPO-widget .listing-image-with-map .card-icon
+  {
     display: none !important;
   }
 
