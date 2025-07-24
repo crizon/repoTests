@@ -598,7 +598,7 @@ html{
     }
   
     span{
-      color: #FFF;
+      color: #FFF!important;
       font-family: Poppins;
       font-size: 32px;
       font-style: normal;
@@ -607,7 +607,7 @@ html{
     }
   
     p{
-      color: #FFF;
+      color: #FFF!important;
       font-family: Poppins;
       font-size: 20px;
       font-style: normal;
