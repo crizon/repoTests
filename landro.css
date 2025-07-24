@@ -715,8 +715,9 @@ html{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    gap: 5px;
 
-    .label{
+    .label, span{
       color: rgba(0, 0, 0, 0.40)!important;
       font-family: Poppins;
       font-size: 18px;
