@@ -767,3 +767,141 @@ html{
 
 
 
+
+
+
+
+
+
+.agentSocMed{
+  display: flex;
+  gap: 10px;
+  
+  a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    transition: .4s ease;
+  }
+}
+
+.tiktok.socmed svg {
+    height: 20px;
+    width: fit-content;
+    display: block;
+}
+
+
+.agentSocMed a:hover{
+  color: white;
+  border: 1px solid black;
+  background: black;
+  
+  svg{
+    fill: white;
+  }
+}
+
+
+
+
+
+
+.view-item.collection-type-team{
+  
+  .single-agent-header .agentSocMed:nth-child(2){
+  	display: none!important;  
+  }
+  
+  .agentSocMed{
+    flex-direction: column;
+    width: fit-content;
+    z-index: 99999;
+    position: absolute;
+    left: 50px;
+    top: 25%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .agentSocMed a{
+    color: white;
+    border: 1px solid white;
+    transitioN: .4s ease;
+  }
+  
+  .tiktok.socmed svg {
+    fill: white;
+  }
+  
+  .agentSocMed.socMob{
+    flex-direction: row !important;
+    position: relative;
+    margin-top: 40px !important;
+    left: 0;
+    top: unset;
+    display: none!important;
+    height: fit-content;
+    
+    a{
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
+
+.view-item.collection-type-team .agentSocMed a:hover, .single-agent-header-content .single-agent-header-box.desktop .single-agent-header-info .single-agent-header-info-sub .agentSocMed.socMob a:hover {
+    color: #000!important;
+    background: white;
+  
+  svg{
+    fill: black;
+  }
+}
+
+
+@media(max-width: 1440px){
+  .view-item.collection-type-team .agentSocMed{
+    display: none!important;
+  }
+  .view-item.collection-type-team .agentSocMed.socMob{
+    display: flex!important;
+  }
+  
+  .agentSocMed.socMob .tiktok.socmed svg {
+    height: 16px;
+  }
+}
+
+
+
+@media(max-width: 1280px){
+  .team-layout-a-item .single-agent-header{
+    padding: 100px 50px 0;
+    
+  }
+  .team-layout-a-item .single-agent-header .single-agent-header-content {
+    padding-bottom: 100px;
+}
+  .team-layout-a-item .single-agent-header .single-agent-header-content .single-agent-header-box.desktop .single-agent-header-info{
+    padding: 30px 0 30px 50px!important;
+  }
+  
+  .team-layout-a-item .single-agent-header .single-agent-header-content .single-agent-header-box.desktop .single-agent-header-img{
+    width: 400px!important;
+    height: 400px!important;
+  }
+  
+  .team-layout-a-item .single-agent-header .single-agent-header-content .single-agent-header-box.desktop .single-agent-header-info .single-agent-header-info-title{
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+
+
