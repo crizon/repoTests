@@ -122,7 +122,14 @@
     content: "Phone: ";
   }
 
-
+  .team-layout-a-item .single-agent-header .single-agent-header-content .single-agent-header-box.desktop .single-agent-header-info .single-agent-header-info-sub>div:first-child,
+  .team-layout-a-item .single-agent-header .single-agent-header-content .single-agent-header-box.desktop .single-agent-header-info .single-agent-header-info-sub>div.email-link{
+    font-family: Poppins!important;
+    font-size: 18px!important;
+    font-style: normal!important;
+    font-weight: 400!important;
+    line-height: 35px!important;
+  }
   
   
   
