@@ -865,6 +865,10 @@ html{
 }
 
 
+
+
+/*BANNER RESPONSIVENSS*/
+
 @media(max-width: 1440px){
   .view-item.collection-type-team .agentSocMed{
     display: none!important;
@@ -901,7 +905,117 @@ html{
     font-size: 24px;
     line-height: 32px;
   }
+
+  
+  .team-layout-a-item .single-agent-header .single-agent-header-content .single-agent-header-box.desktop .single-agent-header-info .single-agent-header-info-name{
+  font-size: 64px!important;
+  line-height: 72px!important;
+}
+  
+      html body .team-layout-a-item .single-agent-header .single-agent-header-content .single-agent-header-box.desktop .single-agent-header-info {
+        padding: 30px 50px !important;
+    }
+  
+  .team-layout-a-item .single-agent-header .single-agent-header-content .single-agent-header-box.desktop .single-agent-header-info .single-agent-header-info-sub>div.license-number{
+    display: none!important;
+  }
+
 }
 
 
 
+
+@media (max-width: 1024px) {
+    html body .team-layout-a-item .single-agent-header .single-agent-header-content .single-agent-header-box.desktop .single-agent-header-info {
+        padding: 0 0 0 50px !important;
+    }
+  
+  .team-layout-a-item .single-agent-header .single-agent-header-content .single-agent-header-box.desktop .single-agent-header-info .single-agent-header-info-title{
+    padding: 0!important;
+  }
+  
+  .team-layout-a-item .single-agent-header .single-agent-header-content .single-agent-header-box.desktop .single-agent-header-info .single-agent-header-info-name{
+    margin-bottom: 20px;
+  }
+  
+  .team-layout-a-item .single-agent-header .single-agent-header-content .single-agent-header-box.desktop .single-agent-header-info .single-agent-a-social{
+    padding: 0;
+    margin: 0;
+  }
+}
+
+
+
+
+@media(max-width: 900px){
+  html body .team-layout-a-item .single-agent-header .single-agent-header-content .single-agent-header-box.desktop .single-agent-header-info {
+        padding: 0!important;
+    width: 100%;
+    }
+  
+  .team-layout-a-item .single-agent-header .single-agent-header-content .single-agent-header-box.desktop {
+    gap: 80px;
+    flex-direction: column;
+  }
+}
+
+
+
+
+@media(max-width: 640px){
+      body.collection-type-team #siteWrapper {
+        padding-left: 0px!important;
+        padding-right: 0px!important;
+    }
+  
+      .team-layout-a-item .single-agent-header {
+        padding: 80px 20px 0!important;
+    }
+  
+      .team-layout-a-item .single-agent-header .single-agent-header-content {
+        padding-bottom: 80px!important;
+    }
+  
+      .team-layout-a-item .single-agent-header .single-agent-header-content .single-agent-header-box.desktop .single-agent-header-info .single-agent-header-info-name {
+        font-size: 48px !important;
+        line-height: 60px !important;
+        margin-bottom: 25px !important;
+    }
+  
+  html body .sqs-layout .sqs-row .sqs-block.code-block.sqs-block-code {
+    padding: 0 !important;
+}
+}
+
+
+@media (max-width: 550px) {
+    .team-layout-a-item .single-agent-header .single-agent-header-content .single-agent-header-box.desktop .single-agent-header-img {
+        margin: 0!important;
+    }
+}
+
+
+
+@media(max-width: 440px){
+  html body .team-layout-a-item .single-agent-header .single-agent-header-content .single-agent-header-box.desktop .single-agent-header-img {
+        width: 100% !important;
+        height: initial !important;
+        aspect-ratio: 1;
+    }
+  
+  html body .team-layout-a-item .single-agent-header .single-agent-header-content .single-agent-header-box.desktop .single-agent-header-info .single-agent-header-info-sub>div:first-child, html body .team-layout-a-item .single-agent-header .single-agent-header-content .single-agent-header-box.desktop .single-agent-header-info .single-agent-header-info-sub>div.email-link {
+    font-size: 14px !important;
+  }
+  
+  .team-layout-a-item .single-agent-header .single-agent-header-content .single-agent-header-box.desktop .single-agent-header-info .single-agent-header-info-title {
+        font-size: 22px;
+        line-height: 25px;
+    }
+  
+  .team-layout-a-item .single-agent-header .single-agent-header-content .single-agent-header-box.desktop .single-agent-header-info .single-agent-header-info-name {
+        font-size: 42px !important;
+    line-height: 52px !important;
+  }
+}
+
+/*BANNER RESPONSIVENSS*/
