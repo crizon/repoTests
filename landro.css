@@ -1056,3 +1056,99 @@ html{
 }
 
 /*ABOUT BODY RESPONSIVENESS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CTA SEC RESPONSIVENESS*/
+#ctaSec .txtCol{
+  background: rgb(250, 250, 250)!important;
+}
+
+@media(max-width: 1280px){
+  html body .imgCol {
+    min-height: 710px!important;
+    
+  }
+  
+  html body .txtCol {
+    padding: 100px 50px;
+    
+    h2 {
+      font-size: 48px !important;
+    }
+  }
+}
+
+
+
+@media(max-width: 900px){
+  #ctaSec .rowX:first-child {
+    flex-direction: column!important;
+  }
+  #ctaSec .rowX:last-child {
+    flex-direction: column-reverse!important;
+  }
+  
+  html body .imgCol{
+    min-height: unset !important;
+    aspect-ratio: 1.2!important;
+    height: unset!important;
+    width: 100%!important;
+  }
+  
+  html body .txtCol{
+    width: 100%!important;
+  }
+}
+
+
+
+
+@media(max-width: 640px){
+  html body .txtCol {
+    padding: 70px 20px;
+    
+    h2 {
+      font-size: 40px !important;
+      line-height: 50px!important;
+    }
+    
+     h3 {
+      font-size: 20px !important;
+      line-height: 30px!important;
+    }
+    
+    p{
+      font-size: 16px!important;
+      line-height: 32px!important;
+    }
+    
+    a{
+      text-align: center!important;
+      justify-content: center!important;
+      padding: 25px 5px!important;
+    }
+  }
+}
+
+
+
+@media(max-width: 425px){
+  html body .txtCol a{
+    width: 100%!important;
+  }
+}
+
+/*CTA SEC RESPONSIVENESS*/
