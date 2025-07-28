@@ -316,7 +316,7 @@ html body .testimonials-list-item-content .testimonial-full-review p:before {
     display: inline-block;
 }
 
-html body .testimonials-list-item-content .testimonial-full-review p:after {
+html body .testimonials-list-item-content .testimonial-full-review:after {
     content: "”";
     display: inline-block;
 }
