@@ -193,8 +193,9 @@ padding-bottom: 0;
 /*TESTIMONIALS*/
 
 .single-agent-testimonials {
-background-color: black;
-min-height: unset;
+  background-color: black;
+  min-height: unset;
+  padding: 150px 50px!important;
 }
   
 .testimonials-list-item-content .testimonial-left-container,
