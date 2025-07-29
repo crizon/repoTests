@@ -584,7 +584,7 @@ html body .testimonials-list-item-content .testimonial-full-review p:after {
 html{
 
   .YLOPO-widget .widget-gallery-container {
-    padding-left: 50px;
+    padding-left: 50px!important;
   }
   
   .YLOPO-widget .widget-gallery-container .grid-view-item {
