@@ -1164,3 +1164,66 @@ html{
 }
 
 /*CTA SEC RESPONSIVENESS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*TESTIMONIALS RESPONSIVENESS*/
+
+@media(max-width: 1280px){
+  
+  html body .single-agent-testimonials {
+    padding: 100px 50px !important;
+}
+  
+  html body .single-agent-testimonials:before {
+        margin-bottom: 50px !important;
+    }
+  
+  html body div#testislide {
+    flex-direction: column!important;
+    gap: 50px;
+  }
+  
+  html body .testimonials-list-item-content .testimonial-full-review {
+    font-size: 24px!important;
+  }
+  
+  html body div#testiarrows {
+    flex-direction: row!important;
+  }
+}
+
+
+
+@media (max-width: 640px) {
+    html body .single-agent-testimonials {
+        padding: 70px 20px !important;
+    }
+  
+  html body .single-agent-testimonials .single-agent-testimonial-container {
+    max-height: 320px!important;
+    min-height: 320px!important;
+  }
+  
+      html body .testimonials-list-item-content .testimonial-full-review {
+        font-size: 20px !important;
+        line-height: 40px !important;
+        -webkit-line-clamp: 8;
+    }
+}
+
+/*TESTIMONIALS RESPONSIVENESS*/
