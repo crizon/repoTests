@@ -1227,3 +1227,174 @@ html{
 }
 
 /*TESTIMONIALS RESPONSIVENESS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*LISTINGS RESPONSIVENESS*/
+
+@media(max-width: 1280px){
+  div#soldSec {
+    padding: 100px 0px!important;
+  }
+  
+  div#soldSec div#sNavi {
+    flex-direction: column!important;
+    margin: 50px auto 0!important;
+    gap: 50px!important;
+    padding: 0!important;
+  }
+  
+  div#soldSec div#sNavi .lineX{
+        display: none!important;
+      }
+}
+
+
+
+
+
+
+@media(max-width: 768px){
+  div#soldSec {
+    padding: 100px 50px!important;
+  }
+  
+  
+  html body .YLOPO-widget .widget-gallery-container {
+    padding-left: 0px !important;
+    box-sizing: border-box;
+    }
+  
+  div#soldSwiperx .swiper-slide {
+    width: 100% !important;
+    margin: 0!important;
+  }
+}
+
+
+
+
+@media(max-width: 640px){
+  div#soldSec {
+        padding: 70px 20px !important;
+    }
+  
+  div#soldSec h2{
+    font-size: 40px!important;
+    line-height: 50px!important;
+    margin-bottom: 50px!important;
+  }
+  
+  html {
+    .YLOPO-widget .gallery-card-b .gallery-card-b-main-card .gallery-card-b-image-container {
+        height: unset!important;
+        aspect-ratio: 1.4;
+    }
+}
+  
+  html body .YLOPO-widget .gallery-card-b .gallery-card-b-summary-details .gallery-card-b-address-block .layout div:first-child {
+          font-size: 24px !important;
+    line-height: 32px!important;
+      }
+  
+  
+  
+  html body {
+    & .YLOPO-widget .gallery-card-b .gallery-card-b-summary-details .gallery-card-b-address-block .layout {
+        & .locality {
+            span {
+                font-size: 18px !important;
+            }
+        }
+    }
+}
+  
+  html {
+    & .YLOPO-widget .gallery-card-b .gallery-card-b-summary-details .summary-info .info-block {
+        .label, span {
+          font-size: 16px!important;
+      }}}
+  
+}
+
+
+
+@media (max-width: 425px) {
+    div#soldSec .YLOPO-widget {
+        padding: 0px 0px !important;
+    }
+  
+  div#soldSec div#sNavi a.valBtn {
+    width: 100%!important;
+  }
+  
+  html .info-block.lprice {
+    padding: 20px 30px!important;
+    justify-content: center!important;
+    align-items: center!important;
+    flex-direction: column!important;
+  }
+  
+  html .YLOPO-widget .gallery-card-b .gallery-card-b-main-card .gallery-card-b-details-container {
+        margin-top: -107px!important;
+    }
+  
+  html body .YLOPO-widget .gallery-card-b .gallery-card-b-summary-details .summary-info {
+      padding: 0 15px 30px!important;
+    }
+  
+  html body .YLOPO-widget .gallery-card-b .gallery-card-b-summary-details .gallery-card-b-address-block {
+      padding: 30px 15px !important;
+  }
+}
+
+
+
+
+@media (max-width: 375px) {
+    html {
+    & .YLOPO-widget .gallery-card-b .gallery-card-b-summary-details .summary-info .info-block {
+        .label, span {
+          font-size: 13px!important;
+      }}}
+  
+  html body .YLOPO-widget .gallery-card-b .gallery-card-b-summary-details .gallery-card-b-address-block .layout div:first-child {
+    font-size: 20px !important;
+  }
+  
+  html body .YLOPO-widget .gallery-card-b .gallery-card-b-summary-details .gallery-card-b-address-block .layout .locality span {
+        font-size: 16px !important;
+    }
+}
+
+
+
+
+@media (max-width: 320px) {
+    html body .YLOPO-widget .gallery-card-b {
+        width: 100% !important;
+      
+    }
+  
+  html body .YLOPO-widget .widget-gallery-container .grid-view-item{
+    min-width: unset;
+  }
+}
+
+/*LISTINGS RESPONSIVENESS*/
