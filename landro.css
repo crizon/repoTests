@@ -1007,6 +1007,14 @@ html{
 
 
 
+@media(max-width: 480px){
+  .team-layout-a-item .single-agent-header .single-agent-header-content .single-agent-header-box.desktop .single-agent-header-info .single-agent-header-info-name {
+    font-size: 48px !important;
+    line-height: 52px !important;
+  }
+}
+
+
 @media(max-width: 440px){
   html body .team-layout-a-item .single-agent-header .single-agent-header-content .single-agent-header-box.desktop .single-agent-header-img {
         width: 100% !important;
@@ -1023,10 +1031,7 @@ html{
         line-height: 25px;
     }
   
-  .team-layout-a-item .single-agent-header .single-agent-header-content .single-agent-header-box.desktop .single-agent-header-info .single-agent-header-info-name {
-        font-size: 42px !important;
-    line-height: 52px !important;
-  }
+  
 }
 
 /*BANNER RESPONSIVENSS*/
@@ -1156,6 +1161,11 @@ html{
 }
 
 
+@media (max-width: 480px) {
+    html body h2#fName {
+        font-size: 40px;
+    }
+}
 
 @media(max-width: 425px){
   html body .txtCol a{
